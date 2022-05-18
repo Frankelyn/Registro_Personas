@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Registro_Personas</string>
+    <string name="persona">persona</string>
+    <string name="nombres">Nombres</string>
+    <string name="email">Email</string>
+    <string name="ocupacion">Ocupacion</string>
+    <string name="salario">Salario</string>
+
 </resources>
