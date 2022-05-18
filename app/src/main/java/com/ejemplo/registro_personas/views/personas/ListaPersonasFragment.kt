@@ -15,7 +15,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class ListaPersonasFragment : Fragment() {
 
-    private val viewModel: ListaPersonasViewModel by viewModels()
+    private val viewModel: PersonasViewModel by viewModels()
     private lateinit var binding: ListaPersonasFragmentBinding
 
     override fun onCreateView(
