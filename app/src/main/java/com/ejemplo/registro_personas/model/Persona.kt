@@ -3,7 +3,7 @@ package com.ejemplo.registro_personas.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "Profesiones")
+@Entity(tableName = "Personas")
 data class Persona(
     @PrimaryKey(autoGenerate = true)
     val personaId: Int,
