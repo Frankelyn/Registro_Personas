@@ -9,7 +9,9 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.ejemplo.registro_personas.R
 import com.ejemplo.registro_personas.databinding.ListaPersonasFragmentBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ListaPersonasFragment : Fragment() {
 
    // private lateinit var viewModel: ListaPersonasViewModel
