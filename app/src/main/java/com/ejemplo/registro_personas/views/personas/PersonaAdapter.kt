@@ -15,7 +15,7 @@ class PersonaAdapter(
     override  fun onBindViewHolder(holder: PersonaViewHolder, position: Int){
         val item = getItem(position)
 
-        holder.Bind(item)
+        holder.bind(item)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PersonaViewHolder {
@@ -25,7 +25,7 @@ class PersonaAdapter(
     }
 
     inner class PersonaViewHolder(private val binding: RowPersonaBinding): RecyclerView.ViewHolder(binding.root){
-        fun Bind(item: Persona){
+        fun bind(item: Persona){
             binding.personaIdTextView.text = item.personaId.toString()
             binding.nombresTextView.text = item.nombres
             binding.emailTextView.text = item.email
